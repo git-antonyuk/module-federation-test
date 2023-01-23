@@ -1,0 +1,22 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "scripts": {
+
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "dev": "vite --port 5000 --strictPort",
+    "serve": "vite preview --port 5000 --strictPort"
+  },
+  "dependencies": {
+    "vue": "^2.7.14"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "1.1.9",
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "terser": "^5.14.2",
+    "vite": "^3.0.2",
+    "vue-loader": "^15.9.8"
+  }
+}
